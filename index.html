@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AntinarkApp</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Days One', sans-serif;
+    font-weight: 400;
+    background-image: linear-gradient(-90deg,#5de0e6, #004aad);
+
+}
+
+#main {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#order {
+    display: none;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: aliceblue;
+    text-shadow: 3px 3px #00357a;
+}
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 0;
+    border-radius: 5px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 500ms ease;
+    color: aliceblue;
+    text-shadow: 2px 2px #00357a;
+    background: #99c5ff;
+}
+
+button:hover {
+    background: #99c5ff;
+}
+</style>
+</head>
+<body>
+    <div id="main">
+        <h1>Молодежная антинаркотическая площадка</h1>
+        <img src="https://image2url.com/r2/default/images/1774933378147-4f21ac3e-2224-4a78-bcf4-860ae9d56ac9.png" width="350" margin="30 auto">
+        <button id="buy">ПОЛУЧИТЬ МАТЕРИАЛЫ</button>
+    </div>
+    <order id="order">
+        <h1>ВЫБЕРИТЕ ТЕМАТИКУ</h1>
+        <img src="https://image2url.com/r2/default/images/1774945737973-25a91e5e-2c14-4a0f-8bb2-270ea920caa5.png" width="175" margin="auto">
+        <button id="alco" margin="30">Материалы о вреде алкоголя</button>
+        <img src="https://image2url.com/r2/default/images/1774945799229-e8b3b574-0933-4f94-8613-50cf975eaa4c.png" width="175" margin="auto">
+        <button id="narko" margin="30">Материалы о вреде наркотиков</button>
+        <img src="https://image2url.com/r2/default/images/1774946421506-a7eae1e1-92e0-43ef-8b20-51d7614294ee.png" width="175" margin="auto">
+        <button id="tabak" margin="30">Материалы о вреде табака</button>
+    </order>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        let td = window.Telegram.WebApp;
+        let buy = document.getElementById("buy");
+
+        buy.addEventListener("click", () => {
+            document.getElementById("main").style.display = "none";
+            document.getElementById("order").style.display = "block";
+        });
+
+
+        alco.addEventListener("click", () => {
+            tg.close();
+        })
+    </script>
+</body>
+</html>
