@@ -33,6 +33,13 @@ h1 {
     text-shadow: 3px 3px #00357a;
 }
 
+h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-shadow: 3px 3px #00357a;
+}
+
 button {
     font-family: 'Roboto Condensed', sans-serif;
     border: 0;
