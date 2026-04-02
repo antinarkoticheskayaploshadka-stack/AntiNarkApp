@@ -53,7 +53,9 @@ h2 {
     transition: all 500ms ease;
     color: aliceblue;
     text-shadow: 2px 2px #00357a;
+    text-decoration: none;
     background: #99c5ff;
+    background-origin: border-box;
 }
 
 #win:hover {
