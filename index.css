@@ -40,7 +40,7 @@ h2 {
     text-shadow: 3px 3px #00357a;
 }
 
-button1 {
+#win {
     font-family: 'Roboto Condensed', sans-serif;
     border: 0;
     border-radius: 5px;
@@ -55,6 +55,6 @@ button1 {
     background: #99c5ff;
 }
 
-button1:hover {
+#win:hover {
     background: #99c5ff;
 }

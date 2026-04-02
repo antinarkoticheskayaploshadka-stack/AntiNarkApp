@@ -12,18 +12,18 @@
     <div id="main">
         <h1>Молодежная антинаркотическая площадка</h1>
         <img src="https://image2url.com/r2/default/images/1775138989679-9e8fd7e3-c2d9-4bc9-a4a1-272263373534.png" width="350" height="350">
-        <button1 id="buy">ПОЛУЧИТЬ МАТЕРИАЛЫ</button1>
+        <button id="win">ПОЛУЧИТЬ МАТЕРИАЛЫ</button1>
     </div>
     <order id="order">
         <h2>ВЫБЕРИТЕ ТЕМАТИКУ</h2>
-        <button2 id="image-button"><img src="https://image2url.com/r2/default/images/1775139460861-98f3fed0-156d-4cb8-8010-793e0edb2bdc.png" width="175" height="175"></button2>
-        <button3 id="image-button"><img src="https://image2url.com/r2/default/images/1775139732996-deff522e-8b3e-4e86-92ac-f0edfcec409c.png" width="175" height="175"></button3>
-        <button4 id="image-button"><img src="https://image2url.com/r2/default/images/1775139926527-d7ab4e52-f62d-4554-b66c-b1e34f010839.png" width="175" height="175"></button4>
+        <button id="alco"><img src="https://image2url.com/r2/default/images/1775139460861-98f3fed0-156d-4cb8-8010-793e0edb2bdc.png" width="175" height="175"></button2>
+        <button id="narco"><img src="https://image2url.com/r2/default/images/1775139732996-deff522e-8b3e-4e86-92ac-f0edfcec409c.png" width="175" height="175"></button3>
+        <button id="vape"><img src="https://image2url.com/r2/default/images/1775139926527-d7ab4e52-f62d-4554-b66c-b1e34f010839.png" width="175" height="175"></button4>
     </order>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         let td = window.Telegram.WebApp;
-        let buy = document.getElementById("buy");
+        let buy = document.getElementById("win");
 
         buy.addEventListener("click", () => {
             document.getElementById("main").style.display = "none";
