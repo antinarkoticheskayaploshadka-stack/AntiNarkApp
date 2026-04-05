@@ -72,6 +72,16 @@ h2 {
     background: #7ed957;
 }
 
+#alco2 {
+    border-radius: 2em;
+    background: #5de0e6;
+    background-origin: border-box;
+}
+
+#alco2:hover {
+    background: #7ed957;
+}
+
 #narco {
     border-radius: 2em;
     background: #5de0e6;
