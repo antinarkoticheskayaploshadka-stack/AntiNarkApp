@@ -66,7 +66,7 @@ h2 {
 }
 
 #alco {
-    display: block;
+    display: inline-block;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -77,7 +77,7 @@ h2 {
 }
 
 #narco {
-    display: block;
+    display: inline-block;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -88,7 +88,7 @@ h2 {
 }
 
 #vape {
-    display: block;
+    display: inline-block;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -99,7 +99,7 @@ h2 {
 }
 
 #energy {
-    display: block;
+    display: inline-block;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
