@@ -71,3 +71,33 @@ h2 {
 #alco:hover {
     background: #7ed957;
 }
+
+#narco {
+    border-radius: 2em;
+    background: #5de0e6;
+    background-origin: border-box;
+}
+
+#narco:hover {
+    background: #7ed957;
+}
+
+#vape {
+    border-radius: 2em;
+    background: #5de0e6;
+    background-origin: border-box;
+}
+
+#vape:hover {
+    background: #7ed957;
+}
+
+#energy {
+    border-radius: 2em;
+    background: #5de0e6;
+    background-origin: border-box;
+}
+
+#energy:hover {
+    background: #7ed957;
+}
