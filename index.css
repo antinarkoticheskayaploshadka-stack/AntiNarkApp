@@ -43,8 +43,7 @@ h2 {
 #win {
     display: inline-block;
     font-family: 'GAGALIN', sans-serif;
-    -webkit-text-stroke-width: 100px #00357a;
-    border: 3px solid transparent;
+    border: 2em solid transparent #000000;
     border-radius: 100px;
     height: 60px;
     width: 200px;
@@ -53,12 +52,17 @@ h2 {
     cursor: pointer;
     transition: all 500ms ease;
     color: #f0f8ff;
-    background: #5de0e6;
+    text-shadow: 1px 1px 0 #00357a,
+            1px -1px 0 #00357a,
+            -1px 1px 0 #00357a,
+            -1px -1px 0 #00357a;
+    text-decoration: none;
+    background: #99c5ff;
     background-origin: border-box;
 }
 
 #win:hover {
-    background: #99c5ff;
+    background: #7ed957;
 }
 
 #alco {
