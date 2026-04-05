@@ -67,3 +67,7 @@ h2 {
     background: #5de0e6;
     background-origin: border-box;
 }
+
+#alco:hover {
+    background: #7ed957;
+}
