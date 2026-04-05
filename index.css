@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/gagalin");
 
 * {
     margin: 0;
@@ -42,7 +42,8 @@ h2 {
 
 #win {
     display: inline-block;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'GAGALIN', sans-serif;
+    -webkit-text-stroke-width: 100px #00357a;
     border: 3px solid transparent;
     border-radius: 100px;
     height: 60px;
@@ -51,10 +52,8 @@ h2 {
     font-weight: 500;
     cursor: pointer;
     transition: all 500ms ease;
-    color: aliceblue;
-    text-shadow: 2px 2px #00357a;
-    text-decoration: none;
-    background: #99c5ff;
+    color: #f0f8ff;
+    background: #5de0e6;
     background-origin: border-box;
 }
 
