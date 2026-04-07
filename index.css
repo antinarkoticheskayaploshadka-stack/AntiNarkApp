@@ -47,6 +47,7 @@ h2 {
     border-radius: 100px;
     height: 60px;
     width: 200px;
+    margin-top: 60px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -66,7 +67,6 @@ h2 {
 }
 
 #alco {
-    margin-bottom: -16px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -77,7 +77,6 @@ h2 {
 }
 
 #narco {
-    margin-bottom: -16px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -88,7 +87,6 @@ h2 {
 }
 
 #vape {
-    margin-bottom: -16px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -99,7 +97,6 @@ h2 {
 }
 
 #energy {
-    margin-bottom: -16px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
