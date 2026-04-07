@@ -54,10 +54,10 @@ h2 {
     cursor: pointer;
     transition: all 500ms ease;
     color: #f0f8ff;
-    text-shadow: 2px 2px 0 #00357a,
-            2px -2px 0 #00357a,
-            -2px 2px 0 #00357a,
-            -2px -2px 0 #00357a;
+    text-shadow: 3px 3px 0 #00357a,
+            3px -3px 0 #00357a,
+            -3px 3px 0 #00357a,
+            -3px -3px 0 #00357a;
     text-decoration: none;
     background: #ffd21f;
     background-origin: border-box;
