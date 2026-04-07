@@ -45,18 +45,19 @@ h2 {
     font-family: 'GAGALIN', sans-serif;
     border: 2em solid transparent #000000;
     border-radius: 100px;
-    height: 70px;
+    height: 100px;
     width: 200px;
     margin-top: 50px;
-    font-size: 18px;
+    font-size: 30px;
+    line-height: 30px;
     font-weight: 500;
     cursor: pointer;
     transition: all 500ms ease;
     color: #f0f8ff;
-    text-shadow: 1px 1px 0 #3d2500,
-            1px -1px 0 #3d2500,
-            -1px 1px 0 #3d2500,
-            -1px -1px 0 #3d2500;
+    text-shadow: 2px 2px 0 #00357a,
+            2px -2px 0 #00357a,
+            -2px 2px 0 #00357a,
+            -2px -2px 0 #00357a;
     text-decoration: none;
     background: #ffd21f;
     background-origin: border-box;
