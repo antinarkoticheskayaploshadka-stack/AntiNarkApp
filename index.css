@@ -45,9 +45,9 @@ h2 {
     font-family: 'GAGALIN', sans-serif;
     border: 2em solid transparent #000000;
     border-radius: 100px;
-    height: 60px;
+    height: 70px;
     width: 200px;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -67,6 +67,7 @@ h2 {
 }
 
 #alco {
+    margin-top: 50px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -77,6 +78,7 @@ h2 {
 }
 
 #narco {
+    margin-top: 50px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -87,6 +89,7 @@ h2 {
 }
 
 #vape {
+    margin-top: 25px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -97,6 +100,7 @@ h2 {
 }
 
 #energy {
+    margin-top: 25px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
