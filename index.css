@@ -53,12 +53,12 @@ h2 {
     cursor: pointer;
     transition: all 500ms ease;
     color: #f0f8ff;
-    text-shadow: 1px 1px 0 #00357a,
-            1px -1px 0 #00357a,
-            -1px 1px 0 #00357a,
-            -1px -1px 0 #00357a;
+    text-shadow: 1px 1px 0 #3d2500,
+            1px -1px 0 #3d2500,
+            -1px 1px 0 #3d2500,
+            -1px -1px 0 #3d2500;
     text-decoration: none;
-    background: #99c5ff;
+    background: #ffd21f;
     background-origin: border-box;
 }
 
@@ -89,7 +89,7 @@ h2 {
 }
 
 #vape {
-    margin-top: 25px;
+    margin-top: 15px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -100,7 +100,7 @@ h2 {
 }
 
 #energy {
-    margin-top: 25px;
+    margin-top: 15px;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
