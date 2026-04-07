@@ -63,10 +63,6 @@ h2 {
     background-origin: border-box;
 }
 
-#win:hover {
-    background: #7ed957;
-}
-
 #alco {
     margin-top: 50px;
     border-radius: 2em;
