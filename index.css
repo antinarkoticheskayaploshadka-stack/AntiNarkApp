@@ -75,8 +75,12 @@ h2 {
     background-origin: border-box;
 }
 
+#alco:hover {
+    background: #7ed957;
+}
 
 #narco {
+    display: inline-block;
     margin-top: 50px;
     border-radius: 2em;
     background: #5de0e6;
@@ -88,6 +92,7 @@ h2 {
 }
 
 #vape {
+    display: inline-block;
     margin-top: 15px;
     border-radius: 2em;
     background: #5de0e6;
@@ -99,6 +104,7 @@ h2 {
 }
 
 #energy {
+    display: inline-block;
     margin-top: 15px;
     border-radius: 2em;
     background: #5de0e6;
