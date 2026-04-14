@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AntiNarkApp</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
 </head>
 <body>
     <div id="main">
@@ -16,29 +15,23 @@
             <img src="https://image2url.com/r2/default/images/1775138989679-9e8fd7e3-c2d9-4bc9-a4a1-272263373534.png" width="300" height="300"/>
         </div>
         <div>
-            <button id="win">ПОЛУЧИТЬ МАТЕРИАЛЫ</button1>
+            <button id="get">ПОЛУЧИТЬ МАТЕРИАЛЫ</button>
         </div>    
     </div>
-    <order id="order">
+    <menu id="menu">
         <h2>ВЫБЕРИТЕ ТЕМАТИКУ</h2>
-        <button id="alco">
-            <a href="https://github.com/antinarkoticheskayaploshadka-stack/AntiNarkApp/releases/download/noalco/materialy.o.vrede.alkogolya.zip" download="">
-                <img src="https://image2url.com/r2/default/images/1775416292104-8095dc2c-b959-480b-8dbc-9fb3a41b1ac0.png" width="175" height="175" />
-            </a>
-        </button>
+        <button id="alco"><img src="https://image2url.com/r2/default/images/1775416292104-8095dc2c-b959-480b-8dbc-9fb3a41b1ac0.png" width="175" height="175" /></button>
         <button id="narco"><img src="https://image2url.com/r2/default/images/1775417801791-9ccee080-4a91-4289-92af-e36f632dd3df.png" width="175" height="175" /></button>
         <button id="vape"><img src="https://image2url.com/r2/default/images/1775417404487-75db5e54-cdb8-430e-8b91-bd464ec8ddd4.png" width="175" height="175" /></button>
         <button id="energy"><img src="https://image2url.com/r2/default/images/1775418219456-f67c1e60-2e21-4ac6-97e0-af5dca842374.png" width="175" height="175" /></button>
+    </menu>
+    <order id="order">
+        <h2>Инструкция по скачиванию</h2>
+        <p>Для получения материалов о вреде алкоголя необходимо нажать на кнопку "ЗАГРУЗИТЬ" в низу экрана</p>
+        <p>Откроется ссылка в хранилище Google Disk c архивом</p>
+        <p>В появившемся окне нажмите на значок загрузить</p>
     </order>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script>
-        let td = window.Telegram.WebApp;
-        let win = document.getElementById("win");
-
-        win.addEventListener("click", () => {
-            document.getElementById("main").style.display = "none";
-            document.getElementById("order").style.display = "block";
-        });
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>

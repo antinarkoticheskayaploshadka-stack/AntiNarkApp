@@ -21,6 +21,11 @@ body {
     
 }
 
+#menu {
+    display: none;
+    text-align: center;
+}
+
 #order {
     display: none;
     text-align: center;
@@ -40,7 +45,7 @@ h2 {
     text-shadow: 3px 3px #00357a;
 }
 
-#win {
+#get {
     display: inline-block;
     font-family: 'GAGALIN', sans-serif;
     border: 2em solid transparent #000000;
@@ -63,7 +68,7 @@ h2 {
     background-origin: border-box;
 }
 
-#win:hover {
+#get:hover {
     background: #ffd21f;
 }
 
