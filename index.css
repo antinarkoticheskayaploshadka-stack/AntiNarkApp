@@ -119,3 +119,26 @@ h2 {
 #energy:hover {
     background: #7ed957;
 }
+
+.button {
+    display: inline-block;
+    font-family: 'GAGALIN', sans-serif;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+    color: #f0f8ff;
+    text-shadow: 1px 1px 0 #00357a,
+            1px -1px 0 #00357a,
+            -1px 1px 0 #00357a,
+            -1px -1px 0 #00357a;
+    text-decoration: none;
+    background: #ffd21f;
+    background-origin: border-box;
+    cursor: pointer;
+}
+
+.button:hover{
+        background: #ffd21f;
+}
