@@ -26,7 +26,22 @@ body {
     text-align: center;
 }
 
-#order {
+#order1 {
+    display: none;
+    text-align: center;
+}
+
+#order2 {
+    display: none;
+    text-align: center;
+}
+
+#order3 {
+    display: none;
+    text-align: center;
+}
+
+#order4 {
     display: none;
     text-align: center;
 }
@@ -75,6 +90,7 @@ h2 {
 #alco {
     display: inline-block;
     margin-top: 50px;
+    border: 2px solid #000000;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -87,6 +103,7 @@ h2 {
 #narco {
     display: inline-block;
     margin-top: 50px;
+    border: 2px solid #000000;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -99,6 +116,7 @@ h2 {
 #vape {
     display: inline-block;
     margin-top: 15px;
+    border: 2px solid #000000;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -111,6 +129,7 @@ h2 {
 #energy {
     display: inline-block;
     margin-top: 15px;
+    border: 2px solid #000000;
     border-radius: 2em;
     background: #5de0e6;
     background-origin: border-box;
@@ -144,4 +163,22 @@ h2 {
 
 .button:hover{
         background: #ffd21f;
+}
+
+.image-1 {
+    width: 300px;
+    height: 300px;
+}
+
+.images {
+    width: 175px;
+    height: 175px;
+}
+
+.image-2 {
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
 }
